@@ -45,7 +45,7 @@ function Skills() {
           <div className="skillName">
             <p>JavaScript</p>
             <ProgressBar
-              completed={85}
+              completed={80}
               bgColor="#1DB9C3"
               height="15px"
               isLabelVisible={true}
@@ -54,7 +54,7 @@ function Skills() {
             />
           </div>
           <div className="skillName">
-            <p>Git</p>
+            <p>Bootstrap</p>
             <ProgressBar
               completed={75}
               bgColor="#1DB9C3"
@@ -80,7 +80,7 @@ function Skills() {
           <div className="skillName">
             <p>MySql</p>
             <ProgressBar
-              completed={85}
+              completed={70}
               bgColor="#1DB9C3"
               height="15px"
               isLabelVisible={true}

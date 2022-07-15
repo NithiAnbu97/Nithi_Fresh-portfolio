@@ -1,23 +1,25 @@
 import React from "react";
 import "./Portfolio.css";
 import * as SiIcons from "react-icons/si";
-import recipies from "../../Images/My-Recipies.png";
-import quiz from "../../Images/quizApp.png";
-import ecom from "../../Images/react-shopy.png";
-import moto from "../../Images/motorDairies.png";
+import bike from "../../Images/bike.png";
+import food from "../../Images/food.png";
+import shop from "../../Images/shop.png";
+import zoom from "../../Images/zoom.png";
+import stackoverflow from "../../Images/stackoverflow.png";
+import url from "../../Images/url.png";
 
 function Portfolio() {
   return (
     <div id="portfolio">
-      <h1 className="logo-text">Projects</h1>
+      <h1 className="logo-text">My Recent Works</h1>
       <div className="allProjects">
         <div className="card" data-aos="zoom-in-up">
-          <img src={ecom} className="card-img-top" alt="..." />
+          <img src={shop} className="card-img-top" alt="..." />
           <div className="title_heading">
-            <h5 className="card-title">Amazon Clone</h5>
+            <h5 className="card-title">Shopping Application</h5>
           </div>
           <div className="card-img-overlay">
-            <div className="img-title">React Shopy</div>
+            <div className="img-title">Online Shop</div>
             <div className="img-description">
               <p>
                 Application system follows complete authentication for Login,
@@ -27,32 +29,35 @@ function Portfolio() {
                 Users can add new products to their account cart, and also
                 Delete the added products on Cart.
               </p>
+              <p>
+                We have used MERN stack to make this project.
+              </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
                 <SiIcons.SiMongodb className="mongodb" /> &nbsp;
                 <p className="codeLinks text-center pt-3">
+                   <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Shopping_Front"
+                  >
+                    Frontend <i className="fab fa-github"></i>
+                  </a>
                   {/* <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/GopinathMano/React-Shopy-Frontend"
-                  >
-                    Frontend <i className="fab fa-github"></i>
-                  </a>
-                  <a
-                    className="bth btn-sm btn-success ml-3"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/GopinathMano/React-Shopy-backend"
+                    href="https://https://github.com/NithiAnbu97/Shopping_Back"
                   >
                     Backend <i className="fab fa-github"></i>
-                  </a> */}
+                  </a>  */}
                   <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://lucid-carson-b3fd8a.netlify.app"
+                    href="https://super-baklava-efcbeb.netlify.app/"
                   >
                     Live-Website <i className="fad fa-link"></i>
                   </a>
@@ -62,44 +67,142 @@ function Portfolio() {
           </div>
         </div>
         <div className="card" data-aos="zoom-in-up">
-          <img src={moto} className="card-img-top" alt="..." />
+          <img src={food} className="card-img-top" alt="..." />
           <div className="title_heading">
-            <h5 className="card-title">MOTORCYCLE - DIARIES</h5>
+            <h5 className="card-title">Recipe App</h5>
           </div>
           <div className="card-img-overlay">
-            <div className="img-title">MOTORCYCLE-DIARIES</div>
+            <div className="img-title">My food</div>
             <div className="img-description">
               <p>
-                Created MOTORCYCLE-DIARIES where the users create and edit
-                posts. Users can view posts based on the category or author
-                name.
+                Application system follows complete authentication for Login,
+                Registration, Payment and authentication
+              </p>
+              <p>
+                I have created this project for the Recipes. 
+                So basically this is a website which uses different data like different food variety in India. 
+                We have used MERN stack to make this project.
+
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
                 <SiIcons.SiMongodb className="mongodb" /> &nbsp;
                 <p className="codeLinks text-center pt-3">
+                   <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Recipe-_Front"
+                  >
+                    Frontend <i className="fab fa-github"></i>
+                  </a>
                   {/* <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/GopinathMano/mern-BikerDiary-frontend"
+                    href="https://github.com/NithiAnbu97/Recipe-_Back"
+                  >
+                    Backend <i className="fab fa-github"></i>
+                  </a>  */}
+                  <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://nimble-sfogliatella-cd2023.netlify.app/"
+                  >
+                    Live-Website <i className="fad fa-link"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card" data-aos="zoom-in-up">
+          <img src={zoom} className="card-img-top" alt="..." />
+          <div className="title_heading">
+            <h5 className="card-title">Video Chat App</h5>
+          </div>
+          <div className="card-img-overlay">
+            <div className="img-title">zoom</div>
+            <div className="img-description">
+              <p>
+              I have created this project for live video chatting. 
+              I have created this project using MERN stack and socket.io.
+              </p>
+              <div className="tech_used">
+                <i className="fab fa-react react"></i> &nbsp;
+                <i className="fab fa-node node"></i> &nbsp;
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
+                <p className="codeLinks text-center pt-3">
+                  <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Zoom_Front"
                   >
                     Frontend <i className="fab fa-github"></i>
                   </a>
-                  <a
+                  {/* <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/GopinathMano/mern-BlogApp-Backend"
+                    href="https://github.com/NithiAnbu97/Zoom_Back"
                   >
                     Backend <i className="fab fa-github"></i>
-                  </a> */}
+                  </a>  */}
                   <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://epic-bassi-425708.netlify.app/"
+                    href="https://radiant-starburst-a531b3.netlify.app/"
+                  >
+                    Live-Website <i className="fad fa-link"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card" data-aos="zoom-in-up">
+          <img src={bike} className="card-img-top" alt="..." />
+          <div className="title_heading">
+            <h5 className="card-title">Bike Blog</h5>
+          </div>
+          <div className="card-img-overlay">
+            <div className="img-title">Blogit</div>
+            <div className="img-description">
+              <p>
+              I have created this project for the Bikes. 
+              So basically this is a website which uses different data like different bike models in the world. 
+              We have used MERN stack to make this project.
+              </p>
+              <div className="tech_used">
+                <i className="fab fa-react react"></i> &nbsp;
+                <i className="fab fa-node node"></i> &nbsp;
+                <SiIcons.SiMongodb className="mongodb" /> &nbsp;
+                <p className="codeLinks text-center pt-3">
+                   <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Bike_Blog_App_Front"
+                  >
+                    Frontend <i className="fab fa-github"></i>
+                  </a>
+                  {/* <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Bike_Blog_App_Back"
+                  >
+                    Backend <i className="fab fa-github"></i>
+                  </a>  */}
+                  <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://sparkly-valkyrie-825348.netlify.app/"
                   >
                   Live-Website <i className="fad fa-link"></i>
                   </a>
@@ -109,48 +212,44 @@ function Portfolio() {
           </div>
         </div>
         <div className="card" data-aos="zoom-in-up">
-          <img src={recipies} className="card-img-top" alt="..." />
+          <img src={stackoverflow} className="card-img-top" alt="..." />
           <div className="title_heading">
-            <h5 className="card-title">My Recipies App</h5>
+            <h5 className="card-title">Stack Over Flow Clone</h5>
           </div>
           <div className="card-img-overlay">
-            <div className="img-title">My Recipies App</div>
+            <div className="img-title">stack over flow</div>
             <div className="img-description">
               <p>
-                The project is a recipe web app based on a catalog of recipes.
-                mplemented this application with a complete authentication
-                system .
-              </p>
-              <p>
-                Users can update their profile pictures. Only the Admin or owner
-                of the post can perform edit or delete.
+              A responsive stack overflow clone with all CRUD operations for questions, answers, and comments 
+              along with important features like searching, voting, and tags. 
+              We have used MERN stack to make this project.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
                 <i className="fab fa-node node"></i> &nbsp;
                 <SiIcons.SiMongodb className="mongodb" /> &nbsp;
                 <p className="codeLinks text-center pt-3">
+                   <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/Hack-2-Frontend"
+                  >
+                    Frontend <i className="fab fa-github"></i>
+                  </a>
                   {/* <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/GopinathMano/React-MyRecipeApp-Frontend"
-                  >
-                    Frontend <i className="fab fa-github"></i>
-                  </a>
-                  <a
-                    className="bth btn-sm btn-success ml-3"
-                    target="_blank"
-                    rel="noreferrer"
-                    href="https://github.com/GopinathMano/React-MyRecipeApp-Backend"
+                    href="https://github.com/NithiAnbu97/Hack-2-Backend"
                   >
                     Backend <i className="fab fa-github"></i>
-                  </a> */}
+                  </a>  */}
                   <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://myrecipes02.netlify.app/"
+                    href="https://stack-overflow-react.netlify.app/"
                   >
                     Live-Website <i className="fad fa-link"></i>
                   </a>
@@ -160,17 +259,18 @@ function Portfolio() {
           </div>
         </div>
         <div className="card" data-aos="zoom-in-up">
-          <img src={quiz} className="card-img-top" alt="..." />
+          <img src={url} className="card-img-top" alt="..." />
           <div className="title_heading">
-            <h5 className="card-title">Quiz App</h5>
+            <h5 className="card-title">URL Shortener</h5>
           </div>
           <div className="card-img-overlay">
-            <div className="img-title">Quiz App</div>
+            <div className="img-title">url short</div>
             <div className="img-description">
-              <p>This app is created using react js. .</p>
               <p>
-                This quiz game is inspired by "Who Wants to Be a Millionaire"
-                show
+              ShortURL is a url shortener to reduce a long link.
+              Use our tool to shorten links and then share them, 
+              in addition you can monitor traffic statistics. 
+              We have used MERN stack to make this project.
               </p>
               <div className="tech_used">
                 <i className="fab fa-react react"></i> &nbsp;
@@ -179,18 +279,25 @@ function Portfolio() {
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://github.com/GopinathMano/react-quiz-app"
+                    href="https://github.com/NithiAnbu97/URL_Shortner_Front"
                   >
                     Frontend <i className="fab fa-github"></i>
                   </a>
-
+                {/* <a
+                    className="bth btn-sm btn-success ml-3"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://github.com/NithiAnbu97/URL_Shortner_Back"
+                  >
+                    Backend <i className="fab fa-github"></i>
+                  </a>  */}
                   <a
                     className="bth btn-sm btn-success ml-3"
                     target="_blank"
                     rel="noreferrer"
-                    href="https://infallible-montalcini-676f93.netlify.app/"
+                    href="https://sunny-melba-34f0c9.netlify.app/login"
                   >
-                    Website <i className="fad fa-link"></i>
+                   Live-Website <i className="fad fa-link"></i>
                   </a>
                 </p>
               </div>

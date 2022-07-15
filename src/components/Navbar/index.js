@@ -10,7 +10,7 @@ import {
   NavLinks,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
-import Me from "../../Images/man.png";
+import Me from "../../Images/man.jpg";
 function Navbar({ toggle }) {
   return (
     <>

@@ -16,15 +16,15 @@ function HeroSection() {
       </HomeBg>
 
       <HomeContent>
-        <HomeH1>Gopinath Manohar</HomeH1>
+        <HomeH1>Nithiyanantham S A</HomeH1>
         <HomeP>
           I'm a passionate{" "}
-          <span style={{ borderBottom: "3px solid green" }}>Web Developer</span>{" "}
-          from Chennai
+          <span style={{ borderBottom: "3px solid green" }}>Full Stack Developer</span>{" "}
+          from Mahankalikapuram
         </HomeP>
         <span className="float-left">
           <a
-            href="https://github.com/GopinathMano"
+            href="https://github.com/NithiAnbu97"
             target="_blank"
             rel="noreferrer"
             className="btn btn-sm btn-success btn-circle"
@@ -33,7 +33,7 @@ function HeroSection() {
           </a>
           &emsp;
           <a
-            href="https://www.linkedin.com/in/gopimano1996/"
+            href="https://www.linkedin.com/in/nithiyanantham-s-a-5785251b9/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-sm btn-success btn-circle"

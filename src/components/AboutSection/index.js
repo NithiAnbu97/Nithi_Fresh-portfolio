@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Me from "../../Images/man.png";
+import Me from "../../Images/man.jpg";
 import { InfoContainer } from "./AboutElements";
 function About() {
   return (
@@ -16,7 +16,7 @@ function About() {
           </div>
           <div className="col-md-6 col-sm-12" data-aos="fade-left">
             <p>
-              I'm a passionate Full stack developer with the goal of working on
+              I'm Nithiyanantham S A , a passionate Full stack developer with the goal of working on
               a project that solves problems with thoughtful UI design, creating
               intuitive, dynamic user experiences powered by strong backend. I
               primarily work with MERN stack among the full stack technologies.
@@ -28,11 +28,11 @@ function About() {
             <a
               className="btn btn-sm btn-primary mt-3"
               rel="noreferrer"
-              href= "https://drive.google.com/file/d/19mbRwH9pMhzXaoGNNN0qAGxgTXcHeStR/view"
+              href= "https://drive.google.com/file/d/1Dcj7LZEKzBNC-oCa0KsEs4b4umGQxa3L/view?usp=sharing"
               target="_blank"
               download
             >
-              Resume <i className="fad fa-link"></i>
+             Nithi's Resume <i className="fad fa-link"></i>
             </a>
           </div>
         </div>
