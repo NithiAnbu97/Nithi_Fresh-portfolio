@@ -1,1 +1,1 @@
-# Deployed Link[click here](https://gopinath-portfolio-96.netlify.app/)
+# Deployed Link[click here](https://nithianbu97-fresh-portfolio.netlify.app/)
