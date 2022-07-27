@@ -28,7 +28,7 @@ function About() {
             <a
               className="btn btn-sm btn-primary mt-3"
               rel="noreferrer"
-              href= "https://drive.google.com/file/d/1Dcj7LZEKzBNC-oCa0KsEs4b4umGQxa3L/view?usp=sharing"
+              href= "https://drive.google.com/file/d/1pQMCzwnF354EFWlrBlUi7tIqUFNfMwGL/view?usp=sharing"
               target="_blank"
               download
             >
